@@ -1,0 +1,21 @@
+---
+title: "Olympic Horse EDA"
+author: "Hanson Oh"
+date: "9/1/2021"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+
+
+```
+
+```{r}
+
+##import horse olympic data
+oly_horse <- read_csv("E:\\github\\Olympic Horse Project\\Olympic-Horses-Project\\table\\horses_olympic.csv")
+
+```
+
