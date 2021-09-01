@@ -16,6 +16,10 @@ library(ggplot2)
 
 ##import horse olympic data
 oly_horse <- read_csv("E:\\github\\Olympic Horse Project\\Olympic-Horses-Project\\table\\horses_olympic.csv")
+paraly_horse <- read_csv("E:\\github\\Olympic Horse Project\\Olympic-Horses-Project\\table\\horses_paralympic.csv")
+
+summary(oly_horse)
+summary(paraly_horse)
 
 ```
 
